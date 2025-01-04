@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid whitesmoke;
+}
+
+.container {
+  width: 570px;
+  margin: 0 auto;
+}
