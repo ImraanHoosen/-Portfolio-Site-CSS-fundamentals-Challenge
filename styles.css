@@ -54,3 +54,12 @@ h1.bold-text {
 h2.bold-text {
   font-size: 60px;
 }
+
+a {
+  color: #00d930;
+  font-weight: 900;
+}
+a:hover {
+  color: #131313;
+  font-weight: 900;
+}
