@@ -65,23 +65,25 @@ a:focus {
 
 /* Styling */
 
+header,
+section {
+  padding: 100px 0;
+}
+
 .heading-color {
   color: #00d930;
 }
 
 header {
   background-color: #131313;
-  padding: 100px 0;
   color: whitesmoke;
 }
 
 .about-me {
   background-color: azure;
-  padding: 100px 0;
 }
 
 .projects {
   background-color: #131313;
-  padding: 100px 0;
   color: whitesmoke;
 }
