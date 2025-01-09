@@ -10,17 +10,7 @@ img {
   width: 200px;
   margin-top: 20px;
   border-radius: 50%;
-  border: 2px solid whitesmoke;
-}
-
-img:hover {
-  height: 220px;
-  width: 220px;
-  border-radius: 50%;
   border: 5px solid whitesmoke;
-  transition: 0.75s;
-  box-shadow: 0px 0px 10px #10b98100, 0px 0px 20px #10b924, 0px 0px 40px #10b981,
-    0px 0px 80px #00d930;
 }
 
 .container {
@@ -43,6 +33,11 @@ h1 {
 h2 {
   font-size: 42px;
   margin-top: 0;
+  border-top: 1px solid #C4C4C4;
+  border-bottom: 1px solid #C4C4C4;
+  padding:20px 0px;
+  margin-bottom: 20px;
+}
 }
 
 h3 {
@@ -115,6 +110,20 @@ section {
   color: #fff;
 }
 
+.btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 30px;
+  background-color: #99d930;
+  color: #252525;
+  text-decoration: none;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #131313;
+  color: #fff;
+}
 footer {
   background-color: azure;
 }
