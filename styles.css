@@ -69,7 +69,7 @@ p {
 }
 
 a {
-  color: #00d930;
+  color: #99d930;
   font-weight: 900;
 }
 a:hover,
@@ -91,13 +91,13 @@ section {
 }
 
 .heading-color {
-  color: #00d930;
+  color: #99d930;
   text-shadow: 0px 0px 5px #10b98100, 0px 0px 10px #10b924, 0px 0px 15px #10b981,
     0px 0px 20px #00d930;
 }
 
 .heading-color2 {
-  color: #00d930;
+  color: #99d930;
 }
 
 .about-me {
@@ -123,9 +123,22 @@ section {
   background-color: #131313;
   color: #fff;
 }
+
+.inverse .btn:hover,
+.inverse .btn:focus {
+  background-color: #fff;
+  color: #131313;
+}
+
 footer {
   background-color: azure;
 }
 .footer {
   padding: 43px;
+}
+
+.name,
+time {
+  font-weight: 900;
+  color: #99d930;
 }
